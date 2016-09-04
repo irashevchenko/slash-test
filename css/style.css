@@ -1,0 +1,353 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    zoom:1; 
+}
+.clear {
+	clear: both;
+}
+body{
+	color: #fff;
+	font-family: "SegoeUIRegular";
+}
+header{
+	position: fixed;
+	top: 0;
+	opacity: 0.85;
+	z-index: 999;
+	width:100%;
+	background-color: #424d54;
+	font-family: "SegoeUIBold";
+	text-transform: uppercase;
+}
+.wrapper{
+	margin: 0 auto;
+	max-width: 1170px;
+}
+header p{
+	float: left;
+	width: 90px;
+	margin: 65px 0;
+	font-size: 30px;
+	color: #6c4247;
+}
+.header__menu{
+	margin-top: 70px; 
+}
+header select{
+	display: none;
+}
+.all-menus{
+	float: right;
+	width: 80%;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: right;
+}
+.all-menus ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	text-align: right;
+	font-family: "SegoeUIBold";
+	text-transform: uppercase;
+}
+.all-menus ul li a:hover{
+	color: #4bcaff;
+	border: 2px solid #4bcaff;
+	padding: 8px 18px;
+}
+.all-menus ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 10px;
+}
+.all-menus ul li:last-child{
+	margin-right: 0;
+}
+.main-picture{
+	background: url(../img/hero-picture.png) top center no-repeat;
+	background-size: cover;
+	text-align: center;
+	text-transform: uppercase;
+}
+.main-picture p{
+	padding-top: 400px;
+	padding-bottom: 260px;
+	line-height: 65px;
+	display: inline-block;
+	font-size: 42px;
+	text-transform: uppercase;
+	font-family: "SegoeUILight";
+}
+.highlight {
+  display: inline;
+  background: #4b565d;
+  color: #893539;
+}
+.bgcolor-services, .bgcolor-twitter{
+	background-color: #4bcaff;
+}
+.wrapper h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "SegoeUILight";
+	line-height: 32px;
+}
+.offset-top-bottom{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+hr{
+	background-color: white;
+	width: 45px;
+	height: 2px;
+	margin-bottom: 38px;
+	border-color: white;
+}
+.column-block{
+	width: 23%;
+	float: left;
+	margin-right: 2.66%;
+}
+div.all-column .column-block:nth-child(4n+4){
+	margin-right: 0;
+}
+div.all-column .column-block:nth-child(n+5){
+	margin-top: 30px;
+}
+p.describe-services{
+	font-size: 12px;
+	font-family: "SegoeUISemiBold";
+}
+.service-img-block p{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: "SegoeUISemiBold";
+}
+.bgcolor-portfolio, .bgcolor-testimonials{
+	background-color: white;
+}
+.color-black{
+	color: #515f67;
+}
+.bgcolor-portfolio hr{
+	margin-bottom: 80px;
+	background-color: #515f67;
+	border-color: #515f67;
+}
+.portfolio-menu ul li a{
+	color:#69747b; 
+}
+.bgcolor-section, .bgcolor-features{
+	background-color: #515f67;
+}
+.white{
+	color: white;
+}
+.section-content{
+	width: 40%;
+	float: left;
+}
+.content a{
+	text-decoration: none;
+	color: white;
+}
+.content p{
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+.section-content button{
+	background-color: #515f67;
+	padding: 15px 40px;
+	border: 2px solid #353f46;
+	color: #353f46;
+	font-size: 14px;
+	font-family: "SegoeUIBold";
+	text-transform: uppercase;
+	cursor: pointer;
+	outline: none;
+}
+.section-video{
+	text-align: right;
+}
+.icon-twitter{
+	float: right;
+	width: 28px;
+}
+.bgcolor-twitter p, .bgcolor-testimonials{
+	font-size: 28px;
+}
+.bgcolor-twitter span{
+	font-family: "SegoeUISemiBold";
+}
+.bg-John-Doe{
+	background: url(../img/John-Doe.png) top center no-repeat;
+	background-size: cover;
+}
+.offset-top-bottom-John-Doe{
+	padding-top: 100px;
+	padding-bottom: 135px;
+}
+.column-John-Doe{
+	width: 48.7%;
+	float: left;
+}
+.column-John-Doe:last-child{
+	margin-left: 2.6%;
+}
+.icon-block ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 64px;
+	height: 64px;
+	border: 2px solid white;
+	position: relative;
+	margin-right: 20px;
+}
+.icon-block ul li img{
+	display: block;
+	margin: auto;
+	position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+}
+p.autor{
+	font-weight: bold;
+	font-size: 14px;
+	color: #4bcaff;
+	margin-top: 35px;
+}
+.bg-contact{
+	background: url(../img/Contact.png) top center no-repeat;
+	background-size: cover;
+}
+.example-contact{
+	float:right;
+	width: 48.7%;
+	margin-top: 15px;
+	font-size: 14px;
+}
+input, textarea{
+	background-color: transparent;
+	border:none;
+	display: block;
+	outline: none;
+}
+input{
+	width: 40.2%;
+	height: 60px;
+	margin-bottom: 40px;
+}
+textarea{
+	width: 100%;
+	height: 220px;
+	resize: none;
+}
+.form-contact input, textarea{
+	border: 2px solid white;
+}
+.name-surname{
+	margin-top: 40px;
+}
+.form-contact button{
+	width: 370px;
+	height: 60px;
+	color: white;
+	background-color: #4bcaff;
+	margin-top: 40px;
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+footer{
+	background-color: #353f47;
+}
+footer ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+}
+footer ul li:first-child{
+	padding-left: 0;
+}
+footer ul li:after{
+	content: "";
+	position: absolute;
+	width: 1px;
+	top: 7px;
+	right: 0px;
+	background-color: #4b5860;
+	height: 12px;
+	cursor:default;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #4b5860;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+footer ul li:last-child:after{
+	display: none;
+}
+.hidden{
+	display: none;
+}
+.portfolio-img{
+	position: relative;
+}
+.portfolio-img img{
+	width: 100%;
+	height: 100%;
+}
+.invisible{
+	display: none;
+}
+.visible, .visible-features{
+	display: block;
+}
+.visible:after{
+	content: "+";
+	font-family: "SegoeUILight";
+	font-size: 72px;
+	text-align: center;
+	height: 270px;
+	line-height: 270px;
+	background-color: #424b52;
+	opacity: 0.502;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	cursor: pointer;
+}
+img.hidden{
+	width: 500px;
+	height: 350px;
+}
+.bxslider img{
+	width: 100px;
+	height: 100px;
+}
+
+
