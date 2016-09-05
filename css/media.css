@@ -19,11 +19,18 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.select-menu{
+	header .select-menu{
 		display: inline-block;
+		margin-right: 50px;
+	}
+	.all-menus{
+		width: 50%;
 	}
 	.header__menu ul{
 		display: none;
+	}
+	header p{
+		margin-left: 50px;
 	}
 }
 @media only screen and (max-width : 680px) {

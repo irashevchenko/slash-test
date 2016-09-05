@@ -48,8 +48,23 @@ header p{
 .header__menu{
 	margin-top: 70px; 
 }
-header select{
+header .select-menu{
 	display: none;
+	border-radius: 3px;
+	text-transform: uppercase;
+	background-color: #424d54;
+	color: white;
+	border: 1px solid black;
+	padding: 3px;
+	font-size: 14px;
+	font-weight: bold;
+}
+header .select-menu:focus{
+	outline: none;
+}
+header .select-menu option{
+	border:0px;
+	outline:0px;
 }
 .all-menus{
 	float: right;
