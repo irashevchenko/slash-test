@@ -14,30 +14,72 @@
 @media only screen and (max-width : 831px){
 	.column-block{
 		width: 46%;
+		margin: 0 2%;
+	}
+	div.all-column .column-block:nth-child(n+5){
+		margin-top: 0px;
 	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	header .select-menu{
+	header .select-menu, .portfolio-menu .select-menu{
 		display: inline-block;
-		margin-right: 50px;
+		margin-right: 8%;
 	}
 	.all-menus{
 		width: 50%;
 	}
-	.header__menu ul{
+	.header__menu ul, .portfolio-menu ul{
 		display: none;
 	}
 	header p{
-		margin-left: 50px;
+		margin-left: 8%;
+	}
+	.main-picture p{
+		padding-top: 200px;
+		padding-bottom: 100px;
+		line-height: 48px;
+		display: inline-block;
+		font-size: 32px;
+		text-transform: uppercase;
+		font-family: "SegoeUILight";
+	}
+	.name-of-block{
+		margin-left: 8%;
+	}
+	.column-John-Doe{
+		width: 95%;
+		float: none;
+		margin:0 auto;
+	}
+	.section-content, .section-video{
+		width: 80%;
+		margin: 0 auto;
+		float: none;
+	}
+	.section-video{
+		padding-top: 10px;
 	}
 }
 @media only screen and (max-width : 680px) {
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+	.column-block{
+		width: 95%;
+		float: none;
+	}
+	div.all-column .column-block:nth-child(4n+4){
+		 margin: 0 auto;
+	}
+	.service-img-block{
+		text-align: center;
+	}
+	.bgcolor-twitter p, .bgcolor-testimonials p{
+		font-size: 20px;
+		text-align: center;
+	}
 }
 
 /* Custom, iPhone Retina */
