@@ -141,9 +141,9 @@ hr{
 	border-color: white;
 }
 .column-block{
-	width: 23%;
+	width: 23.08%;
 	float: left;
-	margin-right: 2.66%;
+	margin-right: 2.56%;
 }
 div.all-column .column-block:nth-child(4n+4){
 	margin-right: 0;
@@ -349,22 +349,24 @@ footer ul li:last-child:after{
 }
 .visible, .visible-features{
 	display: block;
+	vertical-align: middle;
 }
-.visible:after{
+.visible:before{
 	content: "+";
-	font-family: "SegoeUILight";
-	font-size: 72px;
-	text-align: center;
-	height: 270px;
-	line-height: 270px;
 	background-color: #424b52;
 	opacity: 0.502;
 	position: absolute;
+	padding-top: 30%;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	cursor: pointer;
+	font-family: "SegoeUILight";
+	font-size: 72px;
+	text-align: center;
+	height: 69%;
+	vertical-align: inherit;
 }
 img.hidden{
 	width: 500px;
