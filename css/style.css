@@ -269,30 +269,28 @@ p.autor{
 	margin-top: 15px;
 	font-size: 14px;
 }
-input, textarea{
+.form-contact input, .form-contact textarea{
 	background-color: transparent;
-	border:none;
 	display: block;
 	outline: none;
+	padding: 0 5px;
+	border: 2px solid white;
 }
-input{
+.form-contact input{
 	width: 40.2%;
 	height: 60px;
 	margin-bottom: 40px;
 }
-textarea{
+.form-contact textarea{
 	width: 100%;
 	height: 220px;
 	resize: none;
-}
-.form-contact input, textarea{
-	border: 2px solid white;
 }
 .name-surname{
 	margin-top: 40px;
 }
 .form-contact button{
-	width: 370px;
+	width: 31.62%;
 	height: 60px;
 	color: white;
 	background-color: #4bcaff;
@@ -301,6 +299,7 @@ textarea{
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 footer{
 	background-color: #353f47;
@@ -347,7 +346,7 @@ footer ul li:last-child:after{
 .invisible{
 	display: none;
 }
-.visible, .visible-features{
+.visible{
 	display: block;
 	vertical-align: middle;
 }
@@ -372,9 +371,17 @@ img.hidden{
 	width: 500px;
 	height: 350px;
 }
-.bxslider img{
-	width: 100px;
-	height: 100px;
+.bxslider ul{
+	max-width: 300px !important;
 }
+.bxslider img{
+	max-width: 300px !important;
+	height: 300px;
+	text-align: center;
+}
+.slider-txt {
+	color: red;
+}
+
 
 

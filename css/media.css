@@ -33,9 +33,6 @@
 	.header__menu ul, .portfolio-menu ul{
 		display: none;
 	}
-	header p{
-		margin-left: 8%;
-	}
 	.main-picture p{
 		padding-top: 200px;
 		padding-bottom: 100px;
@@ -54,13 +51,55 @@
 		margin:0 auto;
 	}
 	.section-content, .section-video{
-		width: 80%;
+		width: 94%;
 		margin: 0 auto;
 		float: none;
 	}
 	.section-video{
 		padding-top: 10px;
 	}
+    header p{
+        margin: 40px 0 40px 8%;
+    }
+    .header__menu{
+        margin-top: 50px;
+    }
+    .section-content .name-of-block{
+        margin-left: 0;
+    }
+    .bgcolor-twitter p, .bgcolor-testimonials p, .form-contact{
+        width: 94%;
+        margin: 0 auto;
+    }
+    footer ul{
+        text-align: center;
+    }
+    .icon-twitter, .example-contact{
+        margin-right: 8%;
+        width: 39%;
+        text-align: right;
+    }
+    .name-surname{
+        margin-top: 0;
+        font-style: italic;
+    }
+    .form-contact input{
+        height: 50px;
+        width: 53%;
+    }
+    .form-contact textarea{
+        height: 180px;
+    }
+    .form-contact button{
+        width: 30%;
+        margin: 20px auto;
+        height: 40px;
+        display: block;
+    }
+    .offset-top-bottom, .offset-top-bottom-John-Doe{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 @media only screen and (max-width : 680px) {
 }
