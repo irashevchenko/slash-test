@@ -50,13 +50,14 @@
 		float: none;
 		margin:0 auto;
 	}
-	.section-content, .section-video{
+	.section-content, .video iframe, .video{
 		width: 94%;
 		margin: 0 auto;
 		float: none;
 	}
-	.section-video{
+	.video iframe{
 		padding-top: 10px;
+		height: 300px;
 	}
     header p{
         margin: 40px 0 40px 8%;
@@ -76,16 +77,17 @@
     }
     .icon-twitter, .example-contact{
         margin-right: 8%;
-        width: 39%;
+        width: 42%;
         text-align: right;
+		font-size: 13px;
     }
     .name-surname{
         margin-top: 0;
         font-style: italic;
     }
     .form-contact input{
-        height: 50px;
-        width: 53%;
+        height: 40px;
+        width: 50%;
     }
     .form-contact textarea{
         height: 180px;
@@ -106,8 +108,9 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.column-block{
-		width: 95%;
+		width: 70%;
 		float: none;
+		margin: 0 auto;
 	}
 	div.all-column .column-block:nth-child(4n+4){
 		 margin: 0 auto;
@@ -118,6 +121,24 @@
 	.bgcolor-twitter p, .bgcolor-testimonials p{
 		font-size: 20px;
 		text-align: center;
+	}
+	.icon-block ul li{
+		width: 50px;
+		height: 50px;
+		margin-right: 10px;
+	}
+	.wrapper h2{
+		font-size: 22px;
+	}
+	.example-contact{
+		float: none;
+		width: 94%;
+		margin: 0 auto;
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	.form-contact input{
+		margin-bottom: 15px;
 	}
 }
 

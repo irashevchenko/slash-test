@@ -205,13 +205,9 @@ p.describe-services{
 	cursor: pointer;
 	outline: none;
 }
-.section-video{
+.video iframe{
 	width: 48%;
 	float: right;
-}
-.section-video img{
-	width: 100%;
-	height: 100%;
 }
 .icon-twitter{
 	float: right;
@@ -382,6 +378,8 @@ img.hidden{
 .slider-txt {
 	color: red;
 }
+
+
 
 
 
